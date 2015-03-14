@@ -9,6 +9,6 @@ Run using this command
 		-v /data/couchpotato:/volumes \
 		sohrab/couchpotato
 
-To have webUI running on http://localhost:5050 with config and data mounted to `/data/couchpotato`.
+To have webUI running on [http://localhost:5050](http://localhost:5050) with config and data mounted to `/data/couchpotato`.
 
-It is probably a good idea to add `--restart=always` if the container goes down or when CouchPotato forces a restart after an automated update.
+It is probably a good idea to add `--restart=always` so the container restarts if it goes down or when CouchPotato forces a restart after an automated update.
